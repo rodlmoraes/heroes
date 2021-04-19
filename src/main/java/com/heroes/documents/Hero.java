@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @AllArgsConstructor
 public class Hero {
     @Id
-    private Long id;
+    private String id;
 
     private String name;
 
